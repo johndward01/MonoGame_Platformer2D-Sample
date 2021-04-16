@@ -7,9 +7,10 @@ namespace Platformer2D.DesktopGL
         [STAThread]
         static void Main()
         {
-            // TODO: Create a new instance of the PlatformerGame Class called game
+            // TODO: Create a new instance of the PlatformerGame Class called game (Tip: instantiating an object of type PlatformerGame)
 
-            // TODO: Call the Run() method of the game object to run the game
+
+            // TODO: Call the Run() method of the game object to run the game (Tip: accessing an object's members usine dot notation)
         }
     }
 }

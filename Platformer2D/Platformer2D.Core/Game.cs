@@ -161,9 +161,9 @@ namespace Platformer2D
             accelerometerState = Accelerometer.GetState();
 
 #if !NETFX_CORE
-            // TODO: Make the Escape Key Exit the application
+            // TODO: Make the Escape Key Exit the application (Tip1: if statement) (Tip2: use keyboardState object)
 
-            // TODO: Make the F11 Key (or key of your choosing) to toggle Fullscreen
+            // TODO: Make the F11 Key (or key of your choosing) to toggle Fullscreen (Tip1: if statement) (Tip2: use graphics object)
 
 #endif
             bool continuePressed =
