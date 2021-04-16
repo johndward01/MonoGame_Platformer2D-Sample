@@ -7,8 +7,9 @@ namespace Platformer2D.DesktopGL
         [STAThread]
         static void Main()
         {
-            using (var game = new PlatformerGame())
-                game.Run();
+            // TODO: Create a new instance of the PlatformerGame Class called game
+
+            // TODO: Call the Run() method of the game object to run the game
         }
     }
 }

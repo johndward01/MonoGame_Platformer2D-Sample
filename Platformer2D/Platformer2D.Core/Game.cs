@@ -161,9 +161,10 @@ namespace Platformer2D
             accelerometerState = Accelerometer.GetState();
 
 #if !NETFX_CORE
-            // Exit the game when back is pressed.
-            if (gamePadState.Buttons.Back == ButtonState.Pressed)
-                Exit();
+            // TODO: Make the Escape Key Exit the application
+
+            // TODO: Make the F11 Key (or key of your choosing) to toggle Fullscreen
+
 #endif
             bool continuePressed =
                 keyboardState.IsKeyDown(Keys.Space) ||
